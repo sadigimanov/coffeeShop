@@ -1,11 +1,7 @@
 package coffeeShop;
 
-import java.util.Locale;
-import java.util.Random;
 import java.util.Scanner;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         for (int i = 9770; i < 9800; i++) {
@@ -46,26 +42,8 @@ public class Main {
             Thread.sleep(500);
         }
 
-//        System.out.println("What do you drink?");
-//        System.out.println("Menu:");
-
-
-        //TODO switch ile yaz
         int order = sc.nextInt();
-        /*for (int i = 0; i < coffee.length; i++) {
-            if (order == i + 1) {
-                for (int j = 10; j <= 100; j += 10) {
-                    String process = "\rprocessing " + j + "%";
-                    System.out.print(process);
 
-                    if(j == 100){
-                        System.out.println("\n"+coffee[i] + " is ready");
-                    }
-
-                    Thread.sleep(500);
-                }
-            }
-        }*/
         switch (order) {
             case 1:
                 System.out.println("Mocha");
