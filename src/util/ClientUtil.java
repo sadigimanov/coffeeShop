@@ -3,6 +3,10 @@ package util;
 public class ClientUtil {
     private static int balance = 0;
 
+    public static int getBalance() {
+        return balance;
+    }
+
     public static void addBalance(){
         int amount = Input.requiredNumber("The amount you will add:");
         balance += amount;

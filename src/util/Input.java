@@ -16,4 +16,10 @@ public class Input {
         int num = sc.nextInt();
         return num;
     }
+    public static double requiredDouble(String title){
+        Scanner sc = new Scanner(System.in);
+        System.out.print(title);
+        double num = sc.nextDouble();
+        return num;
+    }
 }

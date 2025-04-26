@@ -15,6 +15,13 @@ public class Menu {
                 OrderCoffee.coffeeMenu();
                 break;
             case 4:
+                System.out.println("Available coffees:");
+                Coffee.showCoffee();
+                break;
+            case 5:
+                Coffee.createNewCoffee();
+                break;
+            case 6:
                 System.exit(0);
         }
     }
